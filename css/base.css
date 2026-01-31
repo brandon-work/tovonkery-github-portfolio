@@ -216,3 +216,20 @@ footer {
 .contact a:hover {
     text-decoration: underline;
 }
+
+/* LISTE RESPONSABILITÉS */
+.project-list {
+    margin: 18px 0 22px;
+    padding-left: 18px;
+    color: #cfcfcf;
+}
+
+.project-list li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+    position: relative;
+}
+
+.project-list li::marker {
+    color: #D5106F;
+}
